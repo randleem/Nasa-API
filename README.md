@@ -1,19 +1,22 @@
-# Hackathon Week 7
+# Google Maps JavaScript API Sample Application
 
-For todays hackathon we will be creating a web experience using data from an api - in groups of 4! This will be hard, in 4s, so use all the tools you’ve learned, and you will understand better how to overcome some problems before the project next week.
+This sample is generated from @googlemaps/js-samples located at
+https://github.com/googlemaps/js-samples.
 
-## Task 1 - Api Research (20 - 30 mins)
+## Setup
 
-Research what apis are available. You can use [this](https://apilist.fun) to help, but also go and explore. You can always fall back on pokemon/starwars/quiz/dad-jokes if needs be.
+```sh
+npm i
+npm run dev  # development
+npm run build  # production
+```
 
-## Task 2 - Ideate and Plan (30 - 60 mins)
+The application is currently using the `.env` file to embed the API key in the
+HTML document. This is a temporary key and is not valid for production usage. It
+can be replaced by following these instructions to
+[get an api key](https://developers.google.com/maps/documentation/javascript/get-api-key).
 
-Use disney ideation to come up with an idea of what you want to build in the day. Then decide what your MVP is, and make it so that you can achieve your MVP before lunch. Break down your idea into its component parts. And prioritise your tasks.
+## Feedback
 
-## Task 3 - Build your MVP (60 - 180 mins)
-
-Build your MVP. Use branching and work on different components concurrently. Have the most simple essence of your app working before lunch.
-
-## Task 4 - Stretch Goals (rest of the day)
-
-Have a quick chat about what you are going to build next. Break it down into tasks that you can work on and build it!
+For feedback related to this sample, please open a new issue on
+[GitHub](https://github.com/googlemaps/js-samples/issues).
