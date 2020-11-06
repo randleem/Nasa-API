@@ -21,7 +21,7 @@ function GalaxyViewer(){
     useEffect(() => {
         if(tesPicture){
             async function getPicture(){
-                const res = await fetch(`https://api.nasa.gov/planetary/apod?api_key=DEMO_KEY`,  {
+                const res = await fetch(`https://api.nasa.gov/planetary/apod?api_key=mHHWfgZhaNvfiWbpDDUF5lVaogp6EaVT24quDRgu`,  {
                     headers: { accept: "application/json" },
                   })
                 const data = await res.json();
