@@ -9,7 +9,7 @@ function App() {
   return (
     <Router>
       <div className="App">
-        <nav>
+        <nav id="nav">
           <Link to="/">Space Birthday Picture</Link>
           <Link to="/marsPressure">Mars Pressured by Galaxy</Link>
         </nav>

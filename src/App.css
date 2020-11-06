@@ -1,10 +1,15 @@
+body {
+  background-image: url("./background.gif");
+  padding: 10px;
+}
+
 .App {
   text-align: center;
   color: #fff;
   font-family: "lato", sans-serif;
 }
 
-html {
+/* html {
   height: 100%;
   background: radial-gradient(ellipse at bottom, #1b2735 0%, #090a0f 100%);
   overflow: hidden;
@@ -563,7 +568,7 @@ html {
     206px 1395px #fff, 939px 1946px #fff, 520px 1784px #fff, 1455px 1288px #fff,
     393px 229px #fff, 868px 1649px #fff, 253px 1177px #fff, 1443px 735px #fff,
     1613px 1692px #fff, 830px 1355px #fff, 407px 733px #fff;
-}
+} */
 
 #title {
   position: absolute;
