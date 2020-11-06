@@ -14,7 +14,7 @@ function Calendar() {
 
   return (
     <div>
-      <h1>Select your birthday:</h1>
+      <p className="imageTitle">Select Your Birthday:</p>
       <input
         onChange={(e) => setDate(e.target.value)}
         type="date"

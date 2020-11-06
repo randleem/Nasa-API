@@ -4,22 +4,22 @@ function GalaxyViewer({ date }) {
   const [picture, setPicture] = useState({});
   const [testPicture, setTestPicture] = useState({});
 
-  useEffect(() => {
-    if (picture) {
-      async function getPicture() {
-        const res = await fetch(
-          `https://api.nasa.gov/planetary/apod?api_key=DEMO_KEY`,
-          {
-            headers: { accept: "application/json" },
-          }
-        );
-        const data = await res.json();
-        console.log(data);
-        setPicture(data);
-      }
-      getPicture();
-    }
-  }, []);
+  // useEffect(() => {
+  //   if (picture) {
+  //     async function getPicture() {
+  //       const res = await fetch(
+  //         `https://api.nasa.gov/planetary/apod?api_key=DEMO_KEY`,
+  //         {
+  //           headers: { accept: "application/json" },
+  //         }
+  //       );
+  //       const data = await res.json();
+  //       console.log(data);
+  //       setPicture(data);
+  //     }
+  //     getPicture();
+  //   }
+  // }, []);
 
   useEffect(() => {
     if (testPicture) {
@@ -42,9 +42,9 @@ function GalaxyViewer({ date }) {
     <div>
       {/* <img src={picture?.url} width={`auto`} height={`500px`}></img> */}
       {/* <p>{picture?.explanation}</p> */}
-      <h2>{testPicture?.title}</h2>
+      <h1 className="imageTitle">{testPicture?.title}</h1>
       <img src={testPicture?.url} width={"auto"} height={"500px"}></img>
-      <p>{testPicture?.explanation}</p>
+      <p className="imageTitle">{testPicture?.explanation}</p>
     </div>
   );
 }
