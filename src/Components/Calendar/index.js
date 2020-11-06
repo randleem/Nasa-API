@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import GalaxyViewer from "../Galaxy/index";
 
 function Calendar() {
   let current_datetime = new Date();
@@ -13,14 +14,16 @@ function Calendar() {
 
   return (
     <div>
-      <label>Select your Birthday:</label>
+      <h1>Select your birthday:</h1>
       <input
         onChange={(e) => setDate(e.target.value)}
         type="date"
         id="input-date"
         name="date"
+        min="1995-07-01"
+        max="2020-11-06"
       />
-      <p>{date}</p>
+      <GalaxyViewer date={date} />
     </div>
   );
 }
