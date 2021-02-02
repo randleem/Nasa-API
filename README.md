@@ -1,7 +1,7 @@
 # Nasa-API
 
-*6th November 2020*
-*Week 7 [School of Code](https://www.schoolofcode.co.uk)*
+_6th November 2020_
+_Week 7 [School of Code](https://www.schoolofcode.co.uk)_
 
 During week 6 of School of Code we were tasked with using an API's to retrienve data and create an app.
 
@@ -11,7 +11,7 @@ This was our first time working in groups of 4, and my partners were Rebecca Jon
 
 For our MLP we decided to try an learn a new technology and attempted to lot Mars Solar Day info on a graph
 
-![Winner of Game](./Winner.png)
+![Picture of Nasa Image of the Day](./pic1.png)
 
 ## Built With:
 
@@ -31,5 +31,7 @@ For our MLP we decided to try an learn a new technology and attempted to lot Mar
 3. Install the node modules
    `npm i`
 
-4. Start the application
+4. Sign up for a [Nasa API Key](https://api.nasa.gov) to add to your fetch request
+
+5. Start the application
    `npm run start`

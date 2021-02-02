@@ -25,7 +25,7 @@ function GalaxyViewer({ date }) {
     if (testPicture) {
       async function getPicture() {
         const res = await fetch(
-          `https://api.nasa.gov/planetary/apod?date=${date}&api_key=mHHWfgZhaNvfiWbpDDUF5lVaogp6EaVT24quDRgu`,
+          `https://api.nasa.gov/planetary/apod?date=${date}&api_key=gWyaVihd7RRxWF0TxCBYaScFChCQKsunPfTnhUAa`,
           {
             headers: { accept: "application/json" },
           }
