@@ -9,7 +9,7 @@ This was our first time working in groups of 4, and my partners were Rebecca Jon
 
 ### We decided to use the Nasa API and for our MVP created an app that gets the Nasa image of the day based on a date after 1st July 1996
 
-For our MLP we decided to try an learn a new technology and attempted to lot Mars Solar Day info on a graph
+For our MLP we decided to try an learn a new technology and have a basic plot of Mars' temperature for different Solar Weeks - this needs a lot of work still, although we have a basic plot
 
 ![Picture of Nasa Image of the Day](./pic1.png)
 
